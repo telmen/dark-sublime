@@ -1,5 +1,4 @@
 {
-  // TODO: Quickpanel and inputs
   "variables": {
     "red": "hsl(5, 100%, 50%)",
     "orange": "hsl(27, 100%, 50%)",
@@ -690,7 +689,7 @@
       "min_size": [64, 0],
       "layer0.texture": "",
       "layer0.opacity": 1,
-      "layer0.tint": [30, 30, 30],
+      "layer0.tint": "var(bg)",
       "layer0.inner_margin": [8, 8]
     },
     // Hover button state
@@ -715,7 +714,7 @@
     {
       "class": "text_line_control",
       "layer0.texture": "",
-      "layer0.tint": [30, 30, 30],
+      "layer0.tint": "var(bg)",
       "layer0.opacity": 1,
       "content_margin": 6
     },
@@ -738,7 +737,7 @@
       "class": "overlay_control",
       "layer0.opacity": 1,
       "layer1.texture": "",
-      "layer1.tint": [57, 57, 57],
+      "layer1.tint": "var(bg)",
       "layer1.inner_margin": [0, 0, 0, 0],
       "layer1.opacity": 1,
       "content_margin": 0
@@ -751,14 +750,14 @@
     {
       "class": "quick_panel",
       "row_padding": 8,
-      "layer0.tint": [57, 57, 57],
+      "layer0.tint": [30, 30, 30],
       "layer0.opacity": 1,
       "dark_content": true
     },
     {
       "class": "quick_panel_row",
       "layer0.texture": "",
-      "layer0.tint": [57, 57, 57],
+      "layer0.tint": "var(bg)",
       "layer0.inner_margin": 8,
       "layer0.opacity": 1
     },
@@ -766,7 +765,7 @@
       "class": "quick_panel_row",
       "attributes": ["selected"],
       "layer0.texture": "",
-      "layer0.tint": [38, 38, 38]
+      "layer0.tint": [30, 30, 30]
     },
     {
       "class": "quick_panel_label",
@@ -795,14 +794,14 @@
     {
       "class": "mini_quick_panel_row",
       "layer0.texture": "",
-      "layer0.tint": [57, 57, 57],
+      "layer0.tint": "var(bg)",
       "layer0.opacity": 1
     },
     {
       "class": "mini_quick_panel_row",
       "attributes": ["selected"],
       "layer0.texture": "",
-      "layer0.tint": [38, 38, 38]
+      "layer0.tint": [30, 30, 30]
     },
 
     //
